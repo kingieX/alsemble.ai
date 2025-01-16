@@ -13,8 +13,8 @@
 
 <h2>Getting Started</h2>
 <p>First, clone the repository and install the dependencies:</p>
-<pre><code>git clone https://github.com/your-username/ai-chat-application.git
-cd ai-chat-application
+<pre><code>git clone https://github.com/kingieX/alsemble.ai.git
+cd alsemble.ai
 npm install
 </code></pre>
 
