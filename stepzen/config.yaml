@@ -1,0 +1,4 @@
+configurationset:
+  - configuration:
+      name: postgresql_config
+      uri: postgresql://ep-lucky-sound-a5p9524t-pooler.us-east-2.aws.neon.tech/alsemble?user=alsemble_owner&password=4d5qWobcRKEv

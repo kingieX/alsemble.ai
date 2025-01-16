@@ -1,0 +1,15 @@
+diff --git a/node_modules/@clerk/shared/dist/react/index.mjs b/node_modules/@clerk/shared/dist/react/index.mjs
+index 7a390cb..4913e85 100644
+--- a/node_modules/@clerk/shared/dist/react/index.mjs
++++ b/node_modules/@clerk/shared/dist/react/index.mjs
+@@ -58,7 +58,9 @@ __export(clerk_swr_exports, {
+ __reExport(clerk_swr_exports, swr_star);
+ import * as swr_star from "swr";
+ import { default as default2, SWRConfig } from "swr";
+-import { default as default3 } from "swr/infinite";
++// import { default as default3 } from "swr/infinite";
++import { useSWRInfinite as default3 } from "swr/infinite";
++
+ 
+ // src/react/contexts.tsx
+ var [ClerkInstanceContext, useClerkInstanceContext] = createContextAndHook("ClerkInstanceContext");
